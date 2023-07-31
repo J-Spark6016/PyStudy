@@ -255,7 +255,7 @@ while True:
     if game_stat == 0 : # 메인화면
         draw_text(width//2,height//4 + 5,'Shell Game', font72, c_ltgray) # 로고 그림자
         draw_text(width//2,height//4,'Shell Game', font72) # 로고
-        draw_text(width//2,height//8*7,'Computational Thinking A4 Team', font10, c_gray) # 정보
+        draw_text(width//2,height//8*7,'Computational Thinking A4 Team | Developed By Junseo Park', font10, c_gray) # 정보
         if draw_UI_button1(width//2,height//3*2, '> Start!') :
             game_stat = 1
     
