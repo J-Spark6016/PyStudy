@@ -41,7 +41,7 @@ player_choice = 0
 an = [0 for i in range(1)] # 애니메이션 함수
 an_step = [0 for i in range(1)] # 애니메이션 단계 함수
 random_a, random_b = [0 for i in range(100)], [0 for i in range(100)] # 랜덤하게 선택되는 수
-level = 1
+level = 80
 
 #함수
 def var_reset() :

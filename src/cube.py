@@ -90,7 +90,7 @@ def line(x, y, z, to_x, to_y, to_z) : # 선 함수
 #Cube 정의
 cube_size = 3
 cube_pos = {"x":0,"y":0,"z":0}
-cube_xrot = 30 
+cube_xrot = 30
 cube_yrot = 0
 cube_zrot = 0
 point = [{"x":0,"y":0,"z":0} for i in range(8)] # point[1~8][x, y, z] = 0
